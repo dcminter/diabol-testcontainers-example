@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+	<root level="WARN" />
+	<logger name="se.diabol.blog.testcontainers.example.service.DefaultSandpitService" level="INFO"/>
+	<logger name="se.diabol.blog.testcontainers.example.controllers.SandpitController" level="INFO"/>
+	<logger name="se.diabol.blog.testcontainers.example.controllers.SandpitControllerTest" level="INFO"/>
+</configuration>

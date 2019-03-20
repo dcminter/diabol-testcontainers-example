@@ -1,0 +1,7 @@
+.buildconfig
+.classpath
+.project
+.factorypath
+.attach*
+.settings/
+target/
