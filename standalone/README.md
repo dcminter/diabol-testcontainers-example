@@ -55,7 +55,11 @@ spring:
     password: it-password
 ```
 
-These are compatible with the database started via docker-compose. You can therefore run the application from another terminal window with the command:
+These are compatible with the database started via docker-compose. 
+
+## Running and interating with the application
+
+With the database running in this manner you can run the application from another terminal window with the command:
 
 ```bash
 mvn spring-boot:run
