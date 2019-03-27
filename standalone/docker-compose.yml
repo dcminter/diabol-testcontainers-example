@@ -1,0 +1,13 @@
+version: '2'
+services:
+  mysql-db:
+    image: mysql:8.0
+    ports:
+        - "3306:3306"
+    volumes:
+        - .././src/integration-test/resources/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+        MYSQL_ROOT_PASSWORD: it-root-pwd
+        MYSQL_DATABASE: integration
+        MYSQL_USER: it-user
+        MYSQL_PASSWORD: it-password

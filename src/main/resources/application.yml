@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xxx
+    name: sandpit
   datasource:
     # Note - we're using Hikari (Spring Boot 2's default DataSource) so jdbc-url not url
     jdbc-url: jdbc:mysql://localhost/integration
