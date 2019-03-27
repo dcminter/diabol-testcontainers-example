@@ -57,7 +57,7 @@ spring:
 
 These are compatible with the database started via docker-compose. 
 
-## Running and interating with the application
+## Running and interacting with the application
 
 With the database running in this manner you can run the application from another terminal window with the command:
 
