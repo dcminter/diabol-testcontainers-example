@@ -7,3 +7,7 @@ using [JUnit](https://junit.org/) against a sample application that depends upon
 a [MySQL](https://www.mysql.com/) relational database instance.
 
 Supports a Diabol blog article (not yet posted)
+
+Although the example is provided to demonstrate an approach to integration testing, 
+you can run it as a standalone application if you wish. Instructions are provided in 
+the [standalone/README.md](standalone/README.md) file.
