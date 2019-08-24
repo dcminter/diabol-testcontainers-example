@@ -15,6 +15,10 @@ Module](https://www.testcontainers.org/modules/docker_compose/) in
 [JUnit](https://junit.org/) to integration test a service backed by a
 [MySQL](https://www.mysql.com/) database instance.
 
+The [Github repository](https://github.com/dcminter/diabol-testcontainers-example) 
+contains a complete working example test used as the source for all code 
+snippets in this example.
+
 ## Common approaches
 
 Most developers see the merits of integration testing, but there are
